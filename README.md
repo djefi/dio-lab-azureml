@@ -16,17 +16,25 @@ Entrar no portal.zure.com e clicar em "Criar recurso", pesquisar por Azure Machi
 
 ![Img](./imgs/img001.png)
 
+![Img](./imgs/img002.png)
+
+![Img](./imgs/img003.png)
+
 ## Passo 2: Configurando o recurso do Azure Machine Learning
 
 Para configurar este recurso, é necessário informar:
 * um grupo de recursos (resource group). No caso dei o nome de LABAI-900.
 * a localização geográfica. Como sugestão, selecionar East US por ser próximo, além de geralmente ser mais barato do que no Brasil.
 * informar a assinatura (subscription), que neste caso estamos usando a Avaliação Gratuita de $200.
+* Nas próximas abas, dá para deixar tudo default da ferramenta, passar pela validação e criar o recurso. Estilo next-> next-> finish.
+
+![Img](./imgs/img004.png)
+
+![Img](./imgs/img005.png)
+
+![Img](./imgs/img006.png)
 
 
-Após, em Detalhes da área de trabalho, é informei os detalhes do workspace que será criado. Como foi um laboratório, as configurações foram mínimas. Por fim, criei o recurso clicando em Consultar + criar. Após a validação ser aprovada, cliquei em "Criar".
-
-![Img](./imgs/img2.png)
 
 Após o recurso ser criado, cliquei no botão "Ir para o recurso" para acessar a página do recurso.
 
