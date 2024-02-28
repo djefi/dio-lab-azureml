@@ -1,4 +1,4 @@
-# Trabalhando com Machine Learning na Prática no Azure ML
+# Aula: Trabalhando com Machine Learning na Prática no Azure ML
 
 Passo a passo do projeto Trabalhando com Machine Learning na Prática no Azure ML da DIO.
 
@@ -8,17 +8,21 @@ Links importantes:
 
 [Explore Automated Machine Learning in Azure Machine Learning](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01-machine-learning.html)
 
-[Fonte dos dados](https://aka.ms/bike-rentals) ou [link direto para os dados](https://raw.githubusercontent.com/MicrosoftLearning/mslearn-ai-fundamentals/main/data/ml/daily-bike-share.csv)
+[Fonte dos dados](https://aka.ms/bike-rentals)
 
-## Passo 1: Criando recurso do Azure Machine Learning
+## Passo 1: Criando Recurso do Azure Machine Learning
 
-Primeiro precisei criar um recurso de Machine Learning. Para isso, cliquei em "Criar recurso" e depois pesquisei por Azure Machine Learning no marketplace. Após encontrar o recurso, crie ele.
+Entrar no portal.zure.com e clicar em "Criar recurso", pesquisar por Azure Machine Learning no marketplace e selecionar para criar.
 
-![Img](./imgs/img1.gif)
+![Img](./imgs/img001.png)
 
 ## Passo 2: Configurando o recurso do Azure Machine Learning
 
-Na aba de Noções básica, Detalhes do recurso, é informei a assinatura para cobrança no campo Assinatura e depois informei o Grupo de recursos que vai englobar o recurso que será criado.
+Para configurar este recurso, é necessário informar:
+* um grupo de recursos (resource group). No caso dei o nome de LABAI-900.
+* a localização geográfica. Como sugestão, selecionar East US por ser próximo, além de geralmente ser mais barato do que no Brasil.
+* informar a assinatura (subscription), que neste caso estamos usando a Avaliação Gratuita de $200.
+
 
 Após, em Detalhes da área de trabalho, é informei os detalhes do workspace que será criado. Como foi um laboratório, as configurações foram mínimas. Por fim, criei o recurso clicando em Consultar + criar. Após a validação ser aprovada, cliquei em "Criar".
 
