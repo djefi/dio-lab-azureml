@@ -10,7 +10,7 @@ Links importantes:
 
 [Fonte dos dados](https://aka.ms/bike-rentals)
 
-## Passo 1: Criando Recurso do Azure Machine Learning
+## Passo 1: Criando a área de trabalho (workspace) para o Azure Machine Learning
 
 Entrar no portal.zure.com e clicar em "Criar recurso", pesquisar por Azure Machine Learning no marketplace e selecionar para criar.
 
@@ -20,7 +20,7 @@ Entrar no portal.zure.com e clicar em "Criar recurso", pesquisar por Azure Machi
 
 ![Img](./imgs/img003.png)
 
-## Passo 2: Configurando o recurso do Azure Machine Learning
+## Passo 2: Configurando o workspace do Azure Machine Learning
 
 Para configurar este recurso, é necessário informar:
 * um grupo de recursos (resource group). No caso dei o nome de LABAI-900.
@@ -39,7 +39,7 @@ Para configurar este recurso, é necessário informar:
 
 ![Img](./imgs/img008.png)
 
-## Passo 3 - Criando o modelo
+## Passo 3 - Criando um aprendizado de máquina automatizado (Automated ML) para treinar o modelo
 
 No estúdio, na página do workspace criado anteriormente, acessei a opção do menu ML automatizado e na página aberto, cliquei em "Novo trabalho de ML automatizado".
 
@@ -116,6 +116,6 @@ Para o teste, utilizei o json abaixo:
 }
 </code>
 
-A previsão gerada foi: 361.95
+A previsão gerada foi: 347.73
 
 ![Img](./imgs/img11.png)
