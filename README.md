@@ -27,6 +27,7 @@ Para configurar este recurso, é necessário informar:
 * a localização geográfica. Como sugestão, selecionar East US por ser próximo, além de geralmente ser mais barato do que no Brasil.
 * informar a assinatura (subscription), que neste caso estamos usando a Avaliação Gratuita de $200.
 * Nas próximas abas, dá para deixar tudo default da ferramenta, passar pela validação e criar o recurso. Estilo next-> next-> finish.
+* Após a criação, clicar no botão Go to resource. Nesta página, clicar no botão Lauch studio, que abrirá o Machine Learning Studio (ml.azure.com).
 
 ![Img](./imgs/img004.png)
 
@@ -34,15 +35,9 @@ Para configurar este recurso, é necessário informar:
 
 ![Img](./imgs/img006.png)
 
+![Img](./imgs/img007.png)
 
-
-Após o recurso ser criado, cliquei no botão "Ir para o recurso" para acessar a página do recurso.
-
-![Img](./imgs/img3.png)
-
-Nessa página, existe o botão "Iniciar o estúdio" que redirecionará para o estúdio do Azure Machine Learning.
-
-![Img](./imgs/img4.png)
+![Img](./imgs/img008.png)
 
 ## Passo 3 - Criando o modelo
 
